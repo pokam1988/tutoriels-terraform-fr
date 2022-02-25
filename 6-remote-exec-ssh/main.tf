@@ -1,6 +1,7 @@
 variable "ssh_host" {}
 variable "ssh_user" {}
 variable "ssh_key" {}
+
 resource "null_resource" "ssh_target" {
   connection {
     type        = "ssh"
@@ -14,6 +15,8 @@ resource "null_resource" "ssh_target" {
       "sudo apt install -qq -y nginx >/dev/null"
     ]
   }
+}
+/*
   provisioner "file" {
     source      = "nginx.conf"
     destination = "/tmp/default"
@@ -28,6 +31,7 @@ resource "null_resource" "ssh_target" {
     command = "curl ${var.ssh_host}:667"
   }
 }
+*/
 output "host" {
 value = var.ssh_host
 }
