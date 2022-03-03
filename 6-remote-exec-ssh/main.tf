@@ -2,7 +2,7 @@ variable "ssh_host" {}
 variable "ssh_user" {}
 variable "ssh_key" {}
 
-resource "null_resource" "ssh_target" {
+resource "ssh_resource" "ssh_target" {
   connection {
     type        = "ssh"
     user        = var.ssh_user

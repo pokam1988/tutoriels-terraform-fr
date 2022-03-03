@@ -18,3 +18,21 @@ provider "registry.terraform.io/hashicorp/null" {
     "zh:fea4227271ebf7d9e2b61b89ce2328c7262acd9fd190e1fd6d15a591abfa848e",
   ]
 }
+
+provider "registry.terraform.io/loafoe/ssh" {
+  version = "1.1.0"
+  hashes = [
+    "h1:vN1BhesIc/4xrfxdJH7xyHFT5wSRfRROzGmLMKGTDfM=",
+    "zh:1ece889dbd9cb2c6ccd0dab0049fb111b048bf9ac26d3cc3a959035b992cc119",
+    "zh:48d399af649f1f29eda3c5387053b279b8ffb59ef58bdee623fbd440d19ef749",
+    "zh:6976f2bafbc5fac085206954e954dd4d005f6e5137e1134bfc20e6bf09aa1200",
+    "zh:7f25dd5f2353b04ea9a754433b763b43bec8a33ccf8d1569f40d755bc59f68be",
+    "zh:8b707f92dab61f08ebda9d781ec49011b70f0700919767281b1781de6464b015",
+    "zh:a6c3d68c71481e90247387a10340aed526b0f29e14ef2cdcf0771a87f74539e2",
+    "zh:b19ea8810a92f774f95cfcf2aad9ddb3e874dc730302916c26a707e50f23d324",
+    "zh:b4be364e5edb07034b113e926a470a30ff7ab6866aa107e12e9e620f74c4283a",
+    "zh:b985edce72b9838ce3f1492290f030725cff3b2cbf0f41003ba74ddc5c600962",
+    "zh:e2b39decc411fde5b7f47a8bdd5587485e3911248dc0ecd4be3360af70a58bac",
+    "zh:e9d6a4c56afc33c0176ac2bd10f43c8cb6725b3f92816dc5475d6166267eed75",
+  ]
+}
